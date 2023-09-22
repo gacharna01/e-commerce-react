@@ -6,13 +6,13 @@
 }
 
 :root {
-    --clr-main: lightgrey;
-    --clr-main-light: #dcd3e0;
+    --clr-main: rgb(228, 199, 199);
+    --clr-main-light: #a5a5ad;
 }
 
 .container {
-    max-width: 1140px;
-    padding-inline: 1.5rem;
+    max-width: 1000px;
+    padding-inline: 2rem;
     margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@
 .productos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 3rem;
     padding-block: 2rem;
 }
 
@@ -74,7 +74,7 @@
 
 .producto > img {
     width: 100%;
-    aspect-ratio: 2/1;
+    aspect-ratio: 1/1;
     object-fit: cover;
 }
 
@@ -102,6 +102,7 @@
 
 .producto-detalle img {
     width: 100%;
+    border-radius: 2rem;
 }
 
 .producto-detalle-info h3 {
