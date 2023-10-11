@@ -15,9 +15,10 @@ const Navbar = () => {
             <li><Link className="menu-link"to="/productos/tops">Tops</Link></li>
             <li><Link className="menu-link"to="/nosotros">Nosotros</Link></li>
             <li><Link className="menu-link"to="/contacto">Contacto</Link></li>
+            <li><CartWidget /></li>
         </ul>
 
-        <CartWidget />
+        
 
     </nav>
   )
