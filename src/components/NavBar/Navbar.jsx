@@ -13,6 +13,8 @@ const Navbar = () => {
             <li><Link className="menu-link"to="/productos/oversizes">Oversizes</Link></li>
             <li><Link className="menu-link"to="/productos/hoodies">Hoodies</Link></li>
             <li><Link className="menu-link"to="/productos/tops">Tops</Link></li>
+            <li><Link className="menu-link"to="/nosotros">Nosotros</Link></li>
+            <li><Link className="menu-link"to="/contacto">Contacto</Link></li>
         </ul>
 
         <CartWidget />
