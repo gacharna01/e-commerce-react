@@ -15,15 +15,20 @@ Currently, two official plugins are available:
 - **Navbar**: La barra de navegación en la parte superior de la página.
 - **ItemList**: Lista de productos para mostrar en la página principal.
 - **ItemDetail**: Página de detalles de un producto específico.
+- **Contacto**: Página con formulario para que cliente diligencie.
 - **Cart**: Página del carrito de compras.
+- **ItemCount**: Opción de agregar o quitar items de productos.
 - **Checkout**: Página de pago y finalización de la compra.
 
 ## Rutas
 
 1. `/`: Página de inicio que muestra la lista de productos.
-2. `/producto/:id`: Página de detalles de un producto específico.
+2. `/producto/:categoria`: Página de detalles de un producto específico.
 3. `/carrito`: Página del carrito de compras.
-4. `/pagar`: Página de pago.
+4. `/checkout`: Página de pago.
+5. `/nosotros`: Página que cuenta sobre el ecommerce.
+6. `/contacto`: Página para que el cliente doligencie formulario de datos.
+
 
 ##  Uso
 
