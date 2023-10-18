@@ -66,6 +66,6 @@ Estilos
 Se aplicaron estilos CSS y tambien bibliotecas de diseño como Bootstrap y React icon.
 
 Lógica de Negocio
-Conectar a una base de datos data.json para obtener información de productos.
+Conectar a una base de datos con firebase de Google para obtener información de productos.
 Agregar productos al carrito y realizar cálculos de precios.
 Procesar pagos en la página de pago.
